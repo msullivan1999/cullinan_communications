@@ -1,0 +1,50 @@
+body{
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
+#top-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    font-size: large;
+    z-index: 1;
+    text-decoration: none;
+    border: none;
+    
+}
+#top-nav a {
+    float: right;
+    padding: 14px 18px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+#top-nav a:hover {
+    color: rgb(63,169,245);   
+ }
+
+#logo {
+    float: left;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
